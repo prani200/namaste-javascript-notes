@@ -74,6 +74,18 @@
 - If not, use let, Avoid var.
 - Declare and initialize all variables with let to the top to avoid errors to shrink temporal dead zone window to zero.
 
+var is function-scoped and allows redeclaration and reassignment. let is block-scoped and allows reassignment but not redeclaration. const is block-scoped and doesn't allow reassignment or redeclaration. All three are hoisted, but let and const remain in the Temporal Dead Zone until their declaration is reached.
+
+
+
+
+
+
+
+    
+
+Is this conversation helpful so far?
+
 <hr>
 
 Watch Live On Youtube below:
